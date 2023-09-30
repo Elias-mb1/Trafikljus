@@ -1,0 +1,72 @@
+body{
+   /*display: flex; 
+   align-items: center;*/
+   height: 80%;
+   margin: 0;
+}
+
+.red-light,
+.yellow-light,
+.green-light {
+    width: 100px;
+    height: 100px;
+    margin: 10px auto;
+}
+
+.trafikljus{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.red-light{
+    border: 15px;
+    border: solid;
+    background-color: red;
+    position: relative;
+}
+.light1{
+    width: 100%;
+    height: 50%;
+    background-color: aliceblue;
+    position: absolute;
+    bottom: 0;
+}
+
+
+.yellow-light{
+    border: 15px;
+    border: solid;
+    background-color: yellow;
+    position:relative
+}
+
+.light2{
+    width: 40%;
+    height: 40%;
+    background-color: aliceblue;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    
+
+}
+
+.green-light{
+    border: 25px;
+    border: solid;
+    background-color: green;
+    position: relative;
+}
+
+.light3{
+    width: 40%;
+    height: 40%;
+    background-color: aliceblue;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
