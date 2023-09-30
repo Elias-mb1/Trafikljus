@@ -23,8 +23,7 @@ body{
 }
 
 .red-light{
-    border: 15px;
-    border: solid;
+    border: 15px solid rgb(117, 57, 57);
     background-color: red;
     position: relative;
 }
@@ -40,8 +39,7 @@ body{
 
 
 .yellow-light{
-    border: 15px;
-    border: solid;
+    border: 15px solid rgb(114, 113, 55);
     background-color: yellow;
     position:relative
 }
@@ -58,8 +56,7 @@ body{
 }
 
 .green-light{
-    border: 25px;
-    border: solid;
+    border: 15px solid rgb(36, 86, 36);
     background-color: green;
     position: relative;
 }
